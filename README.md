@@ -3,8 +3,8 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 
 
 Inventory Management Application 
-	Database: SQL Server Management Studio
-	Backend Programming language: Python
+	Database: SQL Server Management Studio.
+	Backend Programming language: Python.
 •	Requirements Analysis: I identified the requirements for inventory tracking. I listed out the entities like products, suppliers, and transactions.
 •	Database Schema Design: I created a relational database schema. I defined tables, relationships, and constraints.
 •	SQL Implementation: I wrote SQL scripts to create the database and tables. I included triggers or stored procedures for transaction updates.
