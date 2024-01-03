@@ -1,5 +1,5 @@
 # The-Inventory-management-Project
-This is a project of two phases: The first phase requires using SQL Server Management Studio to design a database for inventory management. The second phase requires writing Python codes to query, populate and display the inventory management database. Below is a simple breakdown of the tasks done.
+This is a project of two phases: The first phase requires using SQL Server Management Studio to design a database for inventory management. The second phase requires writing Python codes to connect, populate, query and display the inventory management database. Below is a simple breakdown of the tasks done.
 
 
 -  Inventory Management Application.
