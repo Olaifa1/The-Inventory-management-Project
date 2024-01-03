@@ -5,32 +5,31 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 -  Inventory Management Application.
 -  Database: SQL Server Management Studio.
 -  Backend Programming language: Python.
-	Requirements Analysis: I identified the requirements for inventory tracking. I listed out the entities like products, suppliers, and transactions.
-#•	Database Schema Design: I created a relational database schema. I defined tables, relationships, and constraints.
-#•	SQL Implementation: I wrote SQL scripts to create the database and tables. I included triggers or stored procedures for transaction updates.
-#•	Functional Implementation:  I developed SQL queries for adding new products, updating stock levels, and generating reports and ensured data accuracy during stock transactions.
-#•	User Interface Integration: I integrated the SQL database with a simple user interface using Python scripting language.
-#•	End-to-end functionality testing.
+-  Requirements Analysis: I identified the requirements for inventory tracking. I listed out the entities like products, suppliers, and transactions.
+-   atabase Schema Design: I created a relational database schema. I defined tables, relationships, and constraints.
+-     L Implementation: I wrote SQL scripts to create the database and tables. I included triggers or stored procedures for transaction updates.
+- Functional Implementation:  I developed SQL queries for adding new products, updating stock levels, and generating reports and ensured data accuracy during stock transactions.
+- User Interface Integration: I integrated the SQL database with a simple user interface using Python scripting language.
+- End-to-end functionality testing.
 
-# Step by step documentation of each Python file:
+## Step by step documentation of each Python file:
 
-# Python module 1: inventory_management/transactions.py
-# Connect to the SQL Server.
-# Create a get_product_input function: To prompt user and to check if the entered ProductName/user_input is in the product_list dictionary.
-# Create a get_supplier_input function: To prompt user and to check if the entered SupplierName/user_input is in the supplier_list dictionary.
-# Create a get_transaction_type_input function: To prompt user and to check if the entered transaction_type/user_input is in the transaction_type_list dictionary.
-# Create a get_quantity_input function: To prompt user to enter Stock quantity and to check if the entered quantity is a positive integer.
-# Auto-generate unique TransactionID with randomint method.
-# Invoke function get_product_input to prompt user to enter ProductName from the Dictionary product_list
-# Validate and get ProductID
-# Invoke function get_supplier_input to prompt user to enter SupplierName from the Dictionary supplier_list
-# Validate and get SupplierID
-# Invoke function get_transaction_type_input to prompt user to enter TransactionType
-# Invoke function get_quantity_input function: To prompt user to enter Quantity
-# Use current date method to auto-generate the date and time
-# Update the Table Transactions
-# Display the Table Transactions
-# Close the connection
+### Python module 1: inventory_management/transactions.py
+- Connect to the SQL Server.
+- Create a get_product_input function: To prompt user and to check if the entered ProductName/user_input is in the product_list dictionary.
+- Create a get_supplier_input function: To prompt user and to check if the entered SupplierName/user_input is in the supplier_list dictionary.
+- Create a get_transaction_type_input function: To prompt user and to check if the entered transaction_type/user_input is in the transaction_type_list dictionary.Create a get_quantity_input function: To prompt user to enter Stock quantity and to check if the entered quantity is a positive integer.
+- Auto-generate unique TransactionID with randomint method.
+- Invoke function get_product_input to prompt user to enter ProductName from the Dictionary product_list
+- Validate and get ProductID
+- Invoke function get_supplier_input to prompt user to enter SupplierName from the Dictionary supplier_list
+- Validate and get SupplierID
+- Invoke function get_transaction_type_input to prompt user to enter TransactionType
+- Invoke function get_quantity_input function: To prompt user to enter Quantity
+- Use current date method to auto-generate the date and time
+- Update the Table Transactions
+- Display the Table Transactions
+- Close the connection
 
 
 
