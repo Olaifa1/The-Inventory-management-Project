@@ -7,7 +7,7 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 -  Backend Programming language: Python.
 -  Requirements Analysis: I identified the requirements for inventory tracking. I listed out the entities like products, suppliers, and transactions.
 -   atabase Schema Design: I created a relational database schema. I defined tables, relationships, and constraints.
--     L Implementation: I wrote SQL scripts to create the database and tables. I included triggers or stored procedures for transaction updates.
+-  SQL Implementation: I wrote SQL scripts to create the database and tables. I included triggers or stored procedures for transaction updates.
 - Functional Implementation:  I developed SQL queries for adding new products, updating stock levels, and generating reports and ensured data accuracy during stock transactions.
 - User Interface Integration: I integrated the SQL database with a simple user interface using Python scripting language.
 - End-to-end functionality testing.
