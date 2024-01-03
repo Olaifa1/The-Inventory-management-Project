@@ -33,33 +33,34 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 
 
 
-# Python module 2: inventory_management/suppliers.py
-# Connect to the SQL Server
-# Dictionary of suppliers
-# Check if the number of rows in the table is not equal to the length of the dictionary
-# Prompt the user to enter a SupplierName from the given list of Suppliers
-# Check if the entered SupplierName is in the dictionary
-# Check if the SupplierName is already in the table
-# Find the corresponding SupplierID
-# Prompt user for Contact info
-# Update the table with the new values
-# Display the updated table
-# Close the connection
+### Python module 2: inventory_management/suppliers.py
+-	Connect to the SQL Server
+-	Dictionary of suppliers
+-	Check if the number of rows in the table is not equal to the length of the dictionary
+-	Prompt the user to enter a SupplierName from the given list of Suppliers
+-	Check if the entered SupplierName is in the dictionary
+-	Check if the SupplierName is already in the table
+-	Find the corresponding SupplierID
+-	Prompt user for Contact info
+-	Update the table with the new values
+-	Display the updated table
+-	Close the connection
 
 
-# Python module 3:inventory_management/products.py
-# Connect to the SQL Server
-# Dictionary of products
-# Check if the number of rows in the table is not equal to the length of the dictionary.
-# Prompt the user to enter a ProductName from the given list of products
-# Check if the entered ProductName is in the dictionary
-# Check if the ProductName is already in the table
-# Find the corresponding ProductID
-# Prompt the user to enter StockQuantity
-# Update the table with the new values
-# Display the updated table
-# Close the connection
+### Python module 3:inventory_management/products.py
+-	Connect to the SQL Server
+-	Dictionary of products
+-	Check if the number of rows in the table is not equal to the length of the dictionary.
+-	Prompt the user to enter a ProductName from the given list of products
+-	Check if the entered ProductName is in the dictionary
+-	Check if the ProductName is already in the table.
+-	Find the corresponding ProductID
+-	Prompt the user to enter StockQuantity
+-	Update the table with the new values
+-	Display the updated table
+-	Close the connection
 
+### Python module 4:	__innit__.py
 
 
 
