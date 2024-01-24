@@ -1,5 +1,6 @@
 # The-Inventory-management-Project
-This is a project of two phases: The first phase requires using SQL Server Management Studio to design a database for inventory management. The second phase requires writing Python codes to connect, populate, query and display the inventory management database. Below is a simple breakdown of the tasks done.
+The Inventory management system is an application that is able to keep real-time records of stocks supplied and supplier details, stocks sold and customer details, time and price of sales, stock balance in the warehouse/stock-house, salespersons involved in the transaction, Supply Order unique Identity and Sales Order unique Identity for the purpose of investigating  fraudulent supply or sales transactions.
+This is a project of two phases: The first phase requires using SQL Server Management Studio to design a database for inventory management. The second phase requires writing Python codes to prompt users for inputs and then connect, query, update or populate, and display the inventory management database. Below is a simple breakdown of the tasks done.
 
 
 -  Inventory Management Application.
