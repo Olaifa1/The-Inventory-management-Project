@@ -19,7 +19,8 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 📌 Purpose: Manages inventory supply transactions, allowing users to record purchases from suppliers.
 
 🛠 Key Functionalities:
-✅ Display all supply transactions from the database.
+
+✅ Display all supply transactions from the database. <br>
 ✅ Add a new supply transaction (records new product supply from a supplier).
 ✅ Delete an existing transaction by Transaction ID.
 ✅ Validate supplier and product names before adding a transaction.
