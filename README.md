@@ -18,48 +18,47 @@ This is a project of two phases: The first phase requires using SQL Server Manag
 1. Supply_Transactions.py
 📌 Purpose: Manages inventory supply transactions, allowing users to record purchases from suppliers.
 
-🛠 Key Functionalities:
-
+🛠 Key Functionalities:<br>
 ✅ Display all supply transactions from the database. <br>
-✅ Add a new supply transaction (records new product supply from a supplier).
-✅ Delete an existing transaction by Transaction ID.
-✅ Validate supplier and product names before adding a transaction.
-✅ Generate unique transaction IDs.
-✅ Ensure email and phone number formats are correct.
-✅ Maintain a structured output table format for clarity.
+✅ Add a new supply transaction (records new product supply from a supplier).<br>
+✅ Delete an existing transaction by Transaction ID.<br>
+✅ Validate supplier and product names before adding a transaction.<br>
+✅ Generate unique transaction IDs.<br>
+✅ Ensure email and phone number formats are correct.<br>
+✅ Maintain a structured output table format for clarity.<br>
 
-2. Products.py
+2. Products.py<br>
 📌 Purpose: Manages all product-related operations in the inventory system.
 
-🛠 Key Functionalities:
-✅ Display all products in the inventory.
-✅ Search for a product by Product Name or Product ID and display all matching records.
-✅ Validate product name format before processing.
-✅ Keep data structured and well-formatted for easy reading.
-✅ Prevents incorrect or empty input values.
+🛠 Key Functionalities:<br>
+✅ Display all products in the inventory.<br>
+✅ Search for a product by Product Name or Product ID and display all matching records.<br>
+✅ Validate product name format before processing.<br>
+✅ Keep data structured and well-formatted for easy reading.<br>
+✅ Prevents incorrect or empty input values.<br>
 
-3. Customers.py
-📌 Purpose: Manages customer-related data in the inventory system.
+3. Customers.py<br>
+📌 Purpose: Manages customer-related data in the inventory system.<br>
 
-🛠 Key Functionalities:
-✅ Display all customers in the database.
-✅ Search for customers using any column (Customer Name, Customer ID, Gender, Age, Country, State, County, Email, or Phone Number).
-✅ Ensures email and phone number formats are correct.
-✅ Validates numeric fields (like Customer ID and Age) to prevent incorrect input.
-✅ Maintains a structured table output for readability.
+🛠 Key Functionalities:<br>
+✅ Display all customers in the database.<br>
+✅ Search for customers using any column (Customer Name, Customer ID, Gender, Age, Country, State, County, Email, or Phone Number).<br>
+✅ Ensures email and phone number formats are correct.<br>
+✅ Validates numeric fields (like Customer ID and Age) to prevent incorrect input.<br>
+✅ Maintains a structured table output for readability.<br>
 
-4. Suppliers.py
-📌 Purpose: Manages supplier details, ensuring businesses can track their sources of stock.
+4. Suppliers.py<br>
+📌 Purpose: Manages supplier details, ensuring businesses can track their sources of stock.<br>
 
-🛠 Key Functionalities:
-✅ Display all suppliers in the database.
-✅ Search for suppliers using any column (Supplier Name, Supplier ID, Address, Email, or Phone Number).
-✅ Validates supplier information before adding to the database.
-✅ Ensures a consistent table format for displaying supplier details.
+🛠 Key Functionalities:<br>
+✅ Display all suppliers in the database.<br>
+✅ Search for suppliers using any column (Supplier Name, Supplier ID, Address, Email, or Phone Number).<br>
+✅ Validates supplier information before adding to the database.<br>
+✅ Ensures a consistent table format for displaying supplier details.<br>
 
-How Do These Files Work Together?
+How Do These Files Work Together?<br>
 Supply_Transactions.py relies on Products.py and Suppliers.py to check product availability and supplier information before recording transactions.
-Customers.py helps in identifying which customers are interacting with the inventory system.
+Customers.py helps in identifying which customers are interacting with the inventory system.<br>
 The app ensures that data is validated, well-structured, and easy to manage across all tables in the database.
 
 
